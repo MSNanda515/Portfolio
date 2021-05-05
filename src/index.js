@@ -5,6 +5,6 @@ import App from './App';
 import Header from './components/Header.js'
 
 
-ReactDOM.render(<Header />,
+ReactDOM.render(<App />,
   document.getElementById('root')
 );
