@@ -2,27 +2,34 @@ import React, { Component} from 'react';
 // import { Navbar, NavItem } from 'react-bootstrap';
 import { MenuItems } from "./MenuItems.js"
 import './Navbar.css'
-
-
+import {Button} from '../Button.js'
+ 
 class Navbar extends Component {
+    state = { clicked: false }
+
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
     render() {
         return (
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">React <i className="fab fa-react"></i></h1>
-                <div className="menu-logo">
-
+                <h1 className="navbar-logo">MeharSingh <i class="fas fa-rocket"></i></h1>
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <ul>
-                    {MenuItems.map((item)=>{
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {/* <li><a className="nav-links">Demo</a></li> */}
+                    {MenuItems.map((item, index)=>{
                         return(
-                            <li key={item.title}>
-                                <a classname={item.cName} href={item.url}>
+                            <li key={index}>
+                                <a className={item.cName} href={item.url}>
                                     {item.title}
                                 </a>
                             </li>
                         )
                     })}
                 </ul>
+                {/* <Button>Sign UP</Button> */}
             </nav>
         );
     }
