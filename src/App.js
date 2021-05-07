@@ -3,16 +3,16 @@ import React from 'react'
 import './App.css';
 import  Navbar from "./components/Navbar/Navbar.js"
 
-import Navbar2 from "./components/Navbar2"
 import { BrowserRouter as Router} from 'react-router-dom'
 
+import Home from "./pages"
 
 function App() {
   return (
     <div className="App">
       {/* <Navbar /> */}
       <Router>
-        <Navbar2 />
+        <Home />
       </Router>
     </div>  
   );

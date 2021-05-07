@@ -5,7 +5,7 @@ import {FaBars} from 'react-icons/fa'
 
 
 
-const Navbar2 = () => {
+const Navbar2 = ({ toggle }) => {
     return(
         <>
             <Nav>
@@ -13,7 +13,7 @@ const Navbar2 = () => {
                     <NavLogo to='/'>
                         dolla
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
