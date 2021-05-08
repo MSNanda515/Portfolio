@@ -48,3 +48,20 @@ export const homeObjThree = {
     primary: false,
     darkText: true
 };
+
+export const summaryObj = {
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'About Me',
+    headLine: 'Summary',
+    description: 'Get acceess to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    buttoLabel: 'GetSrated',
+    imgStart: true,
+    img: './images/svg2.svg',
+    alt: 'Puggy',
+    dark: false,
+    primary: false,
+    darkText: true
+};

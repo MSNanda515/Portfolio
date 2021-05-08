@@ -5,6 +5,7 @@ import im1 from '../../assets/images/svg1.svg';
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, 
     TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements'
 
+
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, 
     description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
@@ -17,13 +18,13 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                         <TopLine>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headLine}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
-                        <BtnWrap>
+                        {/* <BtnWrap>
                             <Button to='home' 
                             smooth={true} duration={500} spy={true} exact="true" offset={-80}
                             primary={primary ? 1 : 0} dark={dark? 1: 0}
                             dark2={dark2 ? 1: 0}
                             >{buttonLabel}</Button>
-                        </BtnWrap>
+                        </BtnWrap> */}
                     </TextWrapper>
                     </Column1>
                     <Column2>
@@ -38,4 +39,23 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
     )
 }
 
-export default InfoSection
+const PlainInfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, 
+    description, buttonLabel, img, alt, primary, dark, dark2}) => {
+    return (
+       <>
+        <InfoContainer lightBg={lightBg} id={id}>
+            <InfoWrapper>
+                    <TextWrapper>
+                        <TopLine>{topLine}</TopLine>
+                        <Heading lightText={lightText}>{headLine}</Heading>
+                        <Subtitle darkText={darkText}>{description}</Subtitle>
+                    </TextWrapper>
+            </InfoWrapper>
+        </InfoContainer>
+       </>
+    )
+};
+
+export default PlainInfoSection;
+
+export default InfoSection;
