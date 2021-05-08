@@ -16,35 +16,35 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Limited Access',
     headLine: 'Unlimited Transaction with zeros fees',
     description: 'Get acceess to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttoLabel: 'GetSrated',
-    imgStart: false,
-    img: './images/svg1.svg',
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    imgStart: true,
+    img: './images/svg2.svg',
+    alt: 'Puggy',
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 export const homeObjThree = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
+    id: 'signup',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Join Our Team',
     headLine: 'Unlimited Transaction with zeros fees',
     description: 'Get acceess to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttoLabel: 'GetSrated',
     imgStart: false,
-    img: './images/svg1.svg',
+    img: './images/svg3.svg',
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
