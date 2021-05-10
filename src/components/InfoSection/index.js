@@ -39,23 +39,4 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
     )
 }
 
-const PlainInfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, 
-    description, buttonLabel, img, alt, primary, dark, dark2}) => {
-    return (
-       <>
-        <InfoContainer lightBg={lightBg} id={id}>
-            <InfoWrapper>
-                    <TextWrapper>
-                        <TopLine>{topLine}</TopLine>
-                        <Heading lightText={lightText}>{headLine}</Heading>
-                        <Subtitle darkText={darkText}>{description}</Subtitle>
-                    </TextWrapper>
-            </InfoWrapper>
-        </InfoContainer>
-       </>
-    )
-};
-
-export default PlainInfoSection;
-
 export default InfoSection;

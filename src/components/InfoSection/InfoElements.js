@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div `
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-
+    padding-bottom: 30px;
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
@@ -72,7 +72,7 @@ export const Heading = styled.h1 `
 `
 
 export const Subtitle = styled.p `
-    max-width: 440px;
+    // max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
@@ -95,3 +95,123 @@ export const Img = styled.img `
     padding-right: 0;
 `
 
+export const PlainHeading = styled.h1 `
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-align: center;
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`;
+
+export const PlainTextWrapper = styled.div `
+    max-width: 80%;
+    padding-top: 60px;
+`;
+
+
+export const PlainInfoWrapper = styled.div `
+    display: flex;
+    z-index: 1;
+    height: fit-content;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px 30px 24px;
+    justify-content: center;
+`;
+
+export const PlainSubtitle = styled.p `
+    font-family: 'PT Serif', serif;
+    // max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+`;
+
+
+export const ExpInfoWrapper = styled.div `
+    display: flex;
+    z-index: 1;
+    height: fit-content;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px 30px 24px;
+    justify-content: center;
+
+`;
+
+export const ExpTextWrapper = styled.div `
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 90%;
+    padding-top: 60px;
+`;
+
+
+export const ExpInfoElement = styled.div `
+    display: grid;
+    grid-template-columns: 400px 600px;
+    grid-gap: 26px;
+    padding-bottom: 10px;
+`;
+
+export const ExpInfoCol = styled.div `
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+`;
+
+export const ExpInfoPos = styled.div `
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+`;
+
+export const ExpInfoTitle = styled.p `
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+    margin: 0;
+`;
+
+export const ExpInfoComp = styled.p `
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+    margin: 0;
+    padding-left: 0.4rem;
+`;
+
+export const ExpInfoTeam = styled.i `
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+`;
+
+export const ExpInfoDur = styled.p `
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+`;
+
+export const ExpInfoDes = styled.ul `
+    list-style-type: ;
+    text-align: left;
+    font-size: 18px;
+`
+
+export const ExpInfoDesExp = styled.li `
+    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+`;
