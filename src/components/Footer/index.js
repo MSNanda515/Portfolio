@@ -20,45 +20,29 @@ const Footer = () => {
                     <FooterLinksContainer>
                         <FooterLinksWrapper>
                             <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Careers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                                <FooterLinkTitle>Connect</FooterLinkTitle>
+                                <FooterLink to="/signin">Email</FooterLink>
+                                <FooterLink to="/signin">LinkedIn</FooterLink>
+                                <FooterLink to="/signin">Resume</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Careers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                                <FooterLinkTitle>Social</FooterLinkTitle>
+                                <FooterLink to="/signin">Twitter</FooterLink>
+                                <FooterLink to="/signin">Medium</FooterLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
                             <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Careers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
-                            </FooterLinkItems>
-                            <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Careers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                                <FooterLinkTitle>Software</FooterLinkTitle>
+                                <FooterLink to="/signin">Github</FooterLink>
+                                <FooterLink to="/signin">Devpost</FooterLink>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
                     <SocialMedia>
                         <SocialMediaWrap>
-                            <SocialLogo to='/' onClick={toggleHome}>dolla</SocialLogo>
-                            <WebsiteRights>dolla © {new Date().getFullYear()} All 
+                            <SocialLogo to='/' onClick={toggleHome}>Mehar Singh</SocialLogo>
+                            <WebsiteRights>© {new Date().getFullYear()} All 
                             Rights reserved.</WebsiteRights>
                             <SocialIcons>
                                 <SocialIconLink href="/" target="_blank" aria-label="facebook">
