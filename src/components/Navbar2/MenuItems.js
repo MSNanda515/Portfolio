@@ -6,12 +6,12 @@ export const MenuItems = [
     },
     {
         title: 'Experience',
-        id: "experienceWork",
+        id: "experience",
         url: '#',
     },
     {
-        title: 'Skills',
-        id: 'skillsAcquired',
+        title: 'Projects',
+        id: 'projects',
         url: '#',
     },
     {

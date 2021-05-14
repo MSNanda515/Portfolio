@@ -50,7 +50,7 @@ export const homeObjThree = {
 };
 
 export const summaryObj = {
-    id: 'about',
+    id: 'aboutme',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

@@ -123,7 +123,8 @@ export const PlainInfoWrapper = styled.div `
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 24px 30px 24px;
+    padding: 100px 20px 80px 20px; 
+    // top right bottom left
     justify-content: center;
 `;
 
@@ -131,8 +132,8 @@ export const PlainSubtitle = styled.p `
     font-family: 'PT Serif', serif;
     // max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 28px;
     text-align: justify;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
 `;
@@ -165,6 +166,14 @@ export const ExpInfoElement = styled.div `
     grid-template-columns: 400px 600px;
     grid-gap: 26px;
     padding-bottom: 10px;
+
+
+    @media screen and (max-width: 1000px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 26px;
+        padding-bottom: 10px;
+    }
 `;
 
 export const ExpInfoCol = styled.div `
