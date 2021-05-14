@@ -10,7 +10,7 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Projects</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
