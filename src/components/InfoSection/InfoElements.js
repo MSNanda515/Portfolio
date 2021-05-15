@@ -157,6 +157,10 @@ export const ExpInfoWrapper = styled.div `
     margin-left: auto;
     padding: 0 24px 30px 24px;
     justify-content: center;
+
+    @media screen and (max-width: 480px) {
+
+    }
     
 `;
 
@@ -167,6 +171,9 @@ export const ExpTextWrapper = styled.div `
     align-items: center;
     max-width: 90%;
     padding-top: 60px;
+
+    @media screen and (max-width: 480px) {
+    }
 `;
 
 
@@ -183,18 +190,33 @@ export const ExpInfoElement = styled.div `
         grid-gap: 26px;
         padding-bottom: 10px;
     }
+
+    @media screen and (max-width: 480px) {
+        display: initial;
+    }
 `;
 
 export const ExpInfoCol = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
+    @media screen and (max-width: 480px) {
+        border-style: solid;
+        border-color: black;
+        padding: 10px;
+
+    }
 `;
 
 export const ExpInfoPos = styled.div `
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+
+    @media screen and (max-width: 480px) {
+        
+    }
 `;
 
 export const ExpInfoTitle = styled.p `
@@ -202,34 +224,56 @@ export const ExpInfoTitle = styled.p `
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
     margin: 0;
+
+    @media screen and (max-width: 480px) {
+    }
 `;
 
 export const ExpInfoComp = styled.p `
     font-size: 18px;
     line-height: 24px;
-    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+    // color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+    color: #019859;
     margin: 0;
     padding-left: 0.4rem;
+
+    @media screen and (max-width: 480px) {
+    }
 `;
 
 export const ExpInfoTeam = styled.i `
     font-size: 18px;
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+    }
 `;
 
 export const ExpInfoDur = styled.p `
     font-size: 18px;
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+        margin: 0;
+        padding: 0;
+    }
 `;
 
 export const ExpInfoDes = styled.ul `
     list-style-type: ;
     text-align: left;
     font-size: 18px;
+
+    @media screen and (max-width: 480px) {
+        list-style-position: inside;
+    }
 `
 
 export const ExpInfoDesExp = styled.li `
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+    }
 `;
