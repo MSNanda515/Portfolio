@@ -15,7 +15,7 @@ const Footer = () => {
 
     return (
         <>
-            <FooterContainer>
+            <FooterContainer id="footer">
                 <FooterWrap>
                     <FooterLinksContainer>
                         <FooterLinksWrapper>

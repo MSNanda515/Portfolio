@@ -123,9 +123,13 @@ export const PlainInfoWrapper = styled.div `
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
-    padding: 100px 20px 80px 20px; 
+    padding: 80px 20px 80px 20px; 
     // top right bottom left
     justify-content: center;
+
+    @media screen and (max-width: 480px) {
+        padding: 5px;
+    }
 `;
 
 export const PlainSubtitle = styled.p `
@@ -136,6 +140,11 @@ export const PlainSubtitle = styled.p `
     line-height: 28px;
     text-align: justify;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+        text-align: center;
+        font-size: 1rem;
+    }
 `;
 
 
@@ -148,7 +157,7 @@ export const ExpInfoWrapper = styled.div `
     margin-left: auto;
     padding: 0 24px 30px 24px;
     justify-content: center;
-
+    
 `;
 
 export const ExpTextWrapper = styled.div `

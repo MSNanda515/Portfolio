@@ -23,10 +23,10 @@ const HeroSection = () => {
                         {WelcomeItems.des}
                     </HeroP>
                     <HeroBtnWrapper>
-                        <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
+                        <Button to="footer" onMouseEnter={onHover} onMouseLeave={onHover}
                             primary="true" dark="true" smooth={true} duration={500}
                             spy={true} exact='true' offset={-80} activeClass="active">
-                            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                            Get in Touch {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
                     </HeroBtnWrapper>
                 </HeroContent>
