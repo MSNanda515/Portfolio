@@ -8,6 +8,11 @@ export const AwardsTextWrapper = styled.div `
 export const AwardsHeadingWrapper = styled.div `
     text-align: center;
     height: fit-content;
+
+    @media screen and (max-width: 480px) {
+        margin-bottom: 0px; 
+    }
+    
 `
 
 export const AwardsInfoWrapper = styled.div `

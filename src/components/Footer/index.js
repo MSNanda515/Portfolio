@@ -4,8 +4,9 @@ import {FaFacebook, FaInstagram, FaYoutube, FaTwitter,
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, 
     FooterLinkItems, FooterLinkTitle, FooterLink} from "./FooterElements";
 import {SocialIconLink, SocialIcons, SocialMedia, SocialMediaWrap, SocialLogo, 
-    WebsiteRights} from "./FooterElements";
+    WebsiteRights, FooterLinkA} from "./FooterElements";
 import {animateScroll as scroll} from 'react-scroll';
+import resume from "../../assets/docs/ResumeMehar.pdf";
 
 const Footer = () => {
 
@@ -21,21 +22,23 @@ const Footer = () => {
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Connect</FooterLinkTitle>
-                                <FooterLink to="/signin">Email</FooterLink>
-                                <FooterLink to="/signin">LinkedIn</FooterLink>
-                                <FooterLink to="/signin">Resume</FooterLink>
+                                {/* <FooterLink to="/signin">Email</FooterLink> */}
+                                <FooterLinkA href="mailto:msnanda515@gmail.com">Email</FooterLinkA>
+                                <FooterLinkA href="https://www.linkedin.com/in/msnanda/" target="_blank">LinkedIn</FooterLinkA>
+                                <FooterLinkA href={resume} target="_blank">Resume</FooterLinkA>
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Social</FooterLinkTitle>
-                                <FooterLink to="/signin">Twitter</FooterLink>
-                                <FooterLink to="/signin">Medium</FooterLink>
+                                <FooterLinkA href="https://twitter.com/NandaMeharpreet" target="_blank">Twitter</FooterLinkA>
+                                <FooterLinkA href="https://medium.com/@msnanda515" target="_blank">Medium</FooterLinkA>
+                                <FooterLinkA href="https://www.instagram.com/msnanda515/" target="_blank">Instagram</FooterLinkA>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                         <FooterLinksWrapper>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Software</FooterLinkTitle>
-                                <FooterLink to="/signin">Github</FooterLink>
-                                <FooterLink to="/signin">Devpost</FooterLink>
+                                <FooterLinkA href="https://github.com/MSNanda515" target="_blank">Github</FooterLinkA>
+                                <FooterLinkA href="https://devpost.com/meharpre" target="_blank">Devpost</FooterLinkA>
                             </FooterLinkItems>
                         </FooterLinksWrapper>
                     </FooterLinksContainer>
