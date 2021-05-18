@@ -1,6 +1,7 @@
 import React from 'react'
 import {SidebarContainer, Icon, CloseIcon, SidebarWrapper,
-    SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from 
+    SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute, 
+    SidebarButtonLink} from 
     './SidebarElements'
 
 import {MenuItems} from "../Navbar2/MenuItems"
@@ -19,7 +20,8 @@ const Sidebar = ({ isOpen, toggle }) => {
                     ))}
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                    {/* <SidebarRoute to="/signin">Sign In</SidebarRoute> */}
+                    <SidebarButtonLink to="footer" onClick={toggle}>Get In Touch</SidebarButtonLink>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

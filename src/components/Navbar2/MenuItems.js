@@ -15,13 +15,13 @@ export const MenuItems = [
         url: '#',
     },
     {
-        title: 'Awards',
-        id: 'awardsReceived',
+        title: 'Achievements',
+        id: 'achievements',
         url: '#',
     },
-    {
-        title: 'Blogs',
-        id: 'blogsPub',
-        url: '#',
-    },
+    // {
+    //     title: 'Blogs',
+    //     id: 'blogsPub',
+    //     url: '#',
+    // },
 ]

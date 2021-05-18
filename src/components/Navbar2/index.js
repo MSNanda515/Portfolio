@@ -57,11 +57,11 @@ const Navbar2 = ({ toggle }) => {
                             spy={true} exact='true' offset={-80} activeClass="active"
                             >{MenuItems[3].title}</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to={MenuItems[4].id} smooth={true} duration={500}
                             spy={true} exact='true' offset={-80} activeClass="active"
                             >{MenuItems[4].title}</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         
                     </NavMenu>
                     {/* <NavBtn>

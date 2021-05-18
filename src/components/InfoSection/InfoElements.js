@@ -7,6 +7,9 @@ export const InfoContainer = styled.div `
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const InfoWrapper = styled.div `
@@ -226,6 +229,7 @@ export const ExpInfoTitle = styled.p `
     margin: 0;
 
     @media screen and (max-width: 480px) {
+        font-size: 1rem;
     }
 `;
 
@@ -238,6 +242,7 @@ export const ExpInfoComp = styled.p `
     padding-left: 0.4rem;
 
     @media screen and (max-width: 480px) {
+        font-size: 1rem;
     }
 `;
 
@@ -247,6 +252,7 @@ export const ExpInfoTeam = styled.i `
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
 
     @media screen and (max-width: 480px) {
+        font-size: 1rem;
     }
 `;
 
@@ -258,6 +264,7 @@ export const ExpInfoDur = styled.p `
     @media screen and (max-width: 480px) {
         margin: 0;
         padding: 0;
+        font-size: 1rem;
     }
 `;
 
@@ -275,5 +282,6 @@ export const ExpInfoDesExp = styled.li `
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
 
     @media screen and (max-width: 480px) {
+        font-size: 1rem;
     }
 `;
