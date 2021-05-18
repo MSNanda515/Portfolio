@@ -48,19 +48,22 @@ const Footer = () => {
                             <WebsiteRights>© {new Date().getFullYear()} All 
                             Rights reserved.</WebsiteRights>
                             <SocialIcons>
-                                <SocialIconLink href="/" target="_blank" aria-label="facebook">
+                                <SocialIconLink href="https://www.facebook.com/meharpreet.singhnanda.7/" 
+                                    target="_blank" aria-label="facebook">
                                     <FaFacebook />
                                 </SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                                <SocialIconLink href="https://www.instagram.com/msnanda515/" 
+                                    target="_blank" aria-label="Instagram">
                                     <FaInstagram />
                                 </SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                                <SocialIconLink href="https://www.youtube.com/channel/UCvl4ZsGP4bhATnPnzqwnjTw/featured" 
+                                    target="_blank" aria-label="Youtube">
                                     <FaYoutube />
                                 </SocialIconLink>
-                                <SocialIconLink href="//www.twitter.com/briandesignz" target="_blank" aria-label="Twitter">
+                                <SocialIconLink href="https://twitter.com/NandaMeharpreet" target="_blank" aria-label="Twitter">
                                     <FaTwitter />
                                 </SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                                <SocialIconLink href="https://www.linkedin.com/in/msnanda/" target="_blank" aria-label="Linkedin">
                                     <FaLinkedin />
                                 </SocialIconLink>
                             </SocialIcons>
