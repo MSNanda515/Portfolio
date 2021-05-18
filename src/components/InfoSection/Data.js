@@ -117,3 +117,20 @@ export const ExperienceObj = {
         },
     ]
 } 
+
+export const awards = {
+    id: 'achievements',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    description: ['Second place at Junior Engineering Competition UAlberta – 2020',
+        'University of Alberta Undergraduate Leadership Award – 2020',
+        'Gold Medal in National Space Science Olympiad (NSSO) – 2017' ],
+    imgStart: false,
+    img: './images/awards.svg',
+    // img: './svg1.svg',
+    alt: 'Trophy',
+    dark: false,
+    primary: false,
+    darkText: true
+};

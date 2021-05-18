@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-import im1 from '../../assets/images/svg1.svg';
+import im1 from '../../assets/images/award.svg';
 
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, 
     TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements'
@@ -29,7 +29,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                            <Img src={img} alt={alt} />
+                            <Img src={im1} alt={alt} />
                         </ImgWrap>
                     </Column2>
                 </InfoRow>

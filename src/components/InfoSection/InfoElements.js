@@ -47,7 +47,7 @@ export const Column2 = styled.div `
 `;
 
 export const TextWrapper = styled.div `
-    max-width: 540px;
+    max-width: 800px;
     padding-top: 0;
     padding-top: 60px;
 `;
@@ -269,7 +269,7 @@ export const ExpInfoDur = styled.p `
 `;
 
 export const ExpInfoDes = styled.ul `
-    list-style-type: ;
+    // list-style-type: ;
     text-align: left;
     font-size: 18px;
 
