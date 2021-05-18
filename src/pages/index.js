@@ -3,14 +3,14 @@ import Sidebar from "../components/Sidebar";
 import Navbar2 from "../components/Navbar2";
 import HeroSection from '../components/HeroSection';
 import InfoSection from "../components/InfoSection";
-import { ExperienceObj, homeObjOne, homeObjThree, homeObjTwo, summaryObj } from '../components/InfoSection/Data';
+import { awards, ExperienceObj, homeObjOne, homeObjThree, homeObjTwo, summaryObj } from '../components/InfoSection/Data';
 import Services from "../components/Services";
 import Footer from "../components/Footer"
 import Navbar from '../components/Navbar/Navbar';
 import PlainInfoSection from "../components/InfoSection/PlainInfoSection";
 import ExpInfoSection from '../components/InfoSection/ExpInfoSection';
 import { ProjectData } from '../components/Services/ProjectData';
-
+import AwardsInfo from "../components/InfoSection/AwardsInfo"
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -28,7 +28,7 @@ const Home = () => {
             {/* <InfoSection {...homeObjOne}/> */}
             {/* <InfoSection {...homeObjTwo}/> */}
             <Services {...ProjectData} />
-            {/* <InfoSection {...homeObjThree}/> */}
+            <AwardsInfo {...awards}/>
             <Footer />
         </>
     )

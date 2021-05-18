@@ -43,6 +43,7 @@ export const homeObjThree = {
     buttoLabel: 'GetSrated',
     imgStart: false,
     img: './images/svg3.svg',
+    // img: './svg1.svg',
     alt: 'Car',
     dark: false,
     primary: false,
@@ -64,8 +65,8 @@ export const summaryObj = {
     passionate about writing beautiful code and developing great products. I have a strong foundation \
     in Mathematics and Logical Problem Solving and am a master of finding and fixing bugs.', 
     'I grew up with a growth mindset and try to challenge myself in every walk of life. \
-    I plan to keep giving my best efforts to life and hope to use my skills to make this \
-    world a better place.'],
+    I plan to keep giving my best efforts to reach my potential and hope to use my skills to give back\
+    to the community.'],
     buttoLabel: 'GetSrated',
     imgStart: true,
     img: './images/svg2.svg',
@@ -116,3 +117,19 @@ export const ExperienceObj = {
         },
     ]
 } 
+
+export const awards = {
+    id: 'achievements',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    description: ['Second place at Junior Engineering Competition UAlberta – 2020',
+        'University of Alberta Undergraduate Leadership Award – 2020',
+        'Gold Medal in National Space Science Olympiad (NSSO) – 2017' ],
+    imgStart: false,
+    img: './images/award.svg',
+    alt: 'Trophy',
+    dark: false,
+    primary: false,
+    darkText: true
+};

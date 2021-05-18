@@ -7,6 +7,9 @@ export const InfoContainer = styled.div `
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 export const InfoWrapper = styled.div `
@@ -27,7 +30,7 @@ export const InfoRow = styled.div `
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` :`'col1 col2'`)};
     @media screen and (max-width: 768px){
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
 `;
 
@@ -35,6 +38,10 @@ export const Column1 = styled.div `
     margin: 15px;
     padding: 0 15px;
     grid-area: col1;
+
+    @media screen and (max-width: 700px){ 
+        margin-top: 2px;
+    }
 `;
 
 export const Column2 = styled.div `
@@ -44,9 +51,12 @@ export const Column2 = styled.div `
 `;
 
 export const TextWrapper = styled.div `
-    max-width: 540px;
-    padding-top: 0;
+    max-width: 800px;
     padding-top: 60px;
+
+    @media screen and (max-width: 700px) {
+        padding-top: 5px;
+    }
 `;
 
 export const TopLine = styled.p `
@@ -157,6 +167,10 @@ export const ExpInfoWrapper = styled.div `
     margin-left: auto;
     padding: 0 24px 30px 24px;
     justify-content: center;
+
+    @media screen and (max-width: 480px) {
+
+    }
     
 `;
 
@@ -167,6 +181,9 @@ export const ExpTextWrapper = styled.div `
     align-items: center;
     max-width: 90%;
     padding-top: 60px;
+
+    @media screen and (max-width: 480px) {
+    }
 `;
 
 
@@ -183,18 +200,33 @@ export const ExpInfoElement = styled.div `
         grid-gap: 26px;
         padding-bottom: 10px;
     }
+
+    @media screen and (max-width: 480px) {
+        display: initial;
+    }
 `;
 
 export const ExpInfoCol = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
+    @media screen and (max-width: 480px) {
+        border-style: solid;
+        border-color: black;
+        padding: 10px;
+
+    }
 `;
 
 export const ExpInfoPos = styled.div `
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+
+    @media screen and (max-width: 480px) {
+        
+    }
 `;
 
 export const ExpInfoTitle = styled.p `
@@ -202,34 +234,61 @@ export const ExpInfoTitle = styled.p `
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
     margin: 0;
+
+    @media screen and (max-width: 480px) {
+        font-size: 1rem;
+    }
 `;
 
 export const ExpInfoComp = styled.p `
     font-size: 18px;
     line-height: 24px;
-    color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+    // color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+    color: #019859;
     margin: 0;
     padding-left: 0.4rem;
+
+    @media screen and (max-width: 480px) {
+        font-size: 1rem;
+    }
 `;
 
 export const ExpInfoTeam = styled.i `
     font-size: 18px;
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+        font-size: 1rem;
+    }
 `;
 
 export const ExpInfoDur = styled.p `
     font-size: 18px;
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+    }
 `;
 
 export const ExpInfoDes = styled.ul `
-    list-style-type: ;
+    // list-style-type: ;
     text-align: left;
     font-size: 18px;
+
+    @media screen and (max-width: 480px) {
+        list-style-position: inside;
+    }
 `
 
 export const ExpInfoDesExp = styled.li `
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+        font-size: 1rem;
+    }
 `;
