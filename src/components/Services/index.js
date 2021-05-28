@@ -13,7 +13,7 @@ const Services = ({projects}) => {
             <ServicesH1>Projects</ServicesH1>
             <ServicesWrapper>
                 {projects.map(rItem => (
-                    <ServicesCard>
+                    <ServicesCard href={rItem.prjLink}>
                         <ServicesIcon src={rItem.img}/>
                         <ServicesH2>{rItem.prjName}</ServicesH2>
                         <ServicesP>{rItem.prjDes}</ServicesP>

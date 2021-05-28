@@ -36,7 +36,7 @@ export const ServicesWrapper = styled.div `
     }
 `
 
-export const ServicesCard = styled.div `
+export const ServicesCard = styled.a `
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -47,11 +47,13 @@ export const ServicesCard = styled.div `
     padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
-
+    color: black;
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
+        text-decoration: none;
+        color: black;
     }
 
 `
@@ -78,11 +80,13 @@ export const ServicesH2 = styled.h2 `
     font-size: 1.2rem;
     margin-bottom: 10px;
     font-weight: bold;
+
 `
 
 export const ServicesP = styled.p `
     font-size: 1rem;
     text-align: left;
+
     @media screen and (max-width: 480px) {
         font-size: 1rem;
         text-align: center;
