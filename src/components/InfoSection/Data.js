@@ -131,9 +131,15 @@ export const awards = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    description: ['Second place at Junior Engineering Competition UAlberta – 2020',
-        'University of Alberta Undergraduate Leadership Award – 2020',
-        'Gold Medal in National Space Science Olympiad (NSSO) – 2017' ],
+    description: [
+        'Received Skill Badge in Insights from Data with BigQuery - May 2021',
+        'Awarded the second place at Junior Engineering Competition UAlberta – October 2020',
+        'Received the University of Alberta Undergraduate Leadership Award – September 2020',
+        'Completed Operating System and You: Becoming a Power User, Google (Coursera) – August 2020',
+        'Received a Gold Medal in National Space Science Olympiad (NSSO) – August 2017',
+        'Completed The Bits and Bytes of Computer Networking, Google (Coursera) – June 2020',
+        'Completed Technical Support Fundamentals, Google (Coursera) – May 2020'
+    ],
     imgStart: false,
     img: './images/award.svg',
     alt: 'Trophy',

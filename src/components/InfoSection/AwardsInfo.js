@@ -13,7 +13,7 @@ const AwardsInfo = ({lightBg, id, imgStart, topLine, lightText, headLine, darkTe
         <InfoContainer lightBg={lightBg} id={id}>
             <AwardsInfoWrapper>
                 <AwardsHeadingWrapper>
-                <PlainHeading lightText={lightText}>Achievements</PlainHeading>
+                <PlainHeading lightText={lightText}>Awards & Achievements</PlainHeading>
                 </AwardsHeadingWrapper>
                 <InfoRow imgStart={imgStart}>
                     <Column1>

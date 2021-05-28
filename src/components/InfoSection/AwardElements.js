@@ -20,8 +20,7 @@ export const AwardsInfoWrapper = styled.div `
     flex-direction: column;
     z-index: 1;
     height: fit-content;
-    width: 100%;
-    max-width: 1100px;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     padding: 80px 20px 80px 20px; 
