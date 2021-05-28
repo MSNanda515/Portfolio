@@ -16,10 +16,10 @@ const ExpInfoSection = ({lightBg, id, lightText, headLine, darkText,
                         {expData.map(item => (
                             <ExpInfoElement>
                                 <ExpInfoCol>
-                                    <ExpInfoPos>
-                                        <ExpInfoTitle darkText={darkText}>{item.title}</ExpInfoTitle>
-                                        <ExpInfoComp darkText={darkText}>{item.comp}</ExpInfoComp>
-                                    </ExpInfoPos>
+                                    {/* <ExpInfoPos> */}
+                                    <ExpInfoTitle darkText={darkText}>{item.title}</ExpInfoTitle>
+                                    <ExpInfoComp darkText={darkText}>{item.comp}</ExpInfoComp>
+                                    {/* </ExpInfoPos> */}
                                     <ExpInfoTeam darkText={darkText}>{item.team}</ExpInfoTeam>
                                     <ExpInfoDur darkText={darkText}>{item.dur}</ExpInfoDur>
                                 </ExpInfoCol>

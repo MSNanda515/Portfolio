@@ -85,7 +85,7 @@ export const ExperienceObj = {
     darkText: true,
     expData : [
         {
-            title: 'Software Developer,',
+            title: 'Software Developer',
             comp: 'AlbertaSat',
             team: 'Iris Imaging Payload',
             des: ['Developed an interrupt driven command handler for the ARM based HPS (hard processor system) on Intel cyclone V SoC to enable communication between the OBC (onboard computer) and the imaging payload system on the CubeSat', 
@@ -93,7 +93,7 @@ export const ExperienceObj = {
             dur: 'May 2020 - Present'
         },
         {
-            title: 'Team Lead,',
+            title: 'Team Lead',
             comp: 'STARR',
             team: 'Avionics',
             des: ['Managed a team of six using agile principles thereby increasing objective fulfillment by 40% compared to previous semesters', 
@@ -102,7 +102,7 @@ export const ExperienceObj = {
             dur: 'May 2020 - Present'
         },
         {
-            title: 'Vehicle Controls Engineer,',
+            title: 'Vehicle Controls Engineer',
             comp: 'UAlberta Formula Racing EV Team',
             team: 'Electric Vehicle (EV) team',
             des: ['Designed a prototype of the brake system encoder (BSE) to be used in the vehicle ensuring that it meet the safety requirements of the competition', 
@@ -110,14 +110,14 @@ export const ExperienceObj = {
             dur: 'January 2021 - Present'
         },
         {
-            title: 'Sales Associate,',
+            title: 'Sales Associate',
             comp: 'Costco Wholesale',
             team: 'Electronics/Majors',
             des: ['Provided high quality service by assisting over 50 customers daily with their electronics purchase while upholding brand standards and values to ensure customer satisfaction'],
             dur: 'June 2020 - January 2021'
         },
         {
-            title: 'Editor, ',
+            title: 'Editor',
             comp: 'St. Joeph\' College',
             team: '\'The Semite\' Newsletter',
             des: ['Supervised the editorial team of 5 members, edited the biweekly newsletter, and interviewed alumni'],

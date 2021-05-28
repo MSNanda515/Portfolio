@@ -163,9 +163,9 @@ export const ExpInfoWrapper = styled.div `
     z-index: 1;
     height: fit-content;
     width: 100%;
-    // margin-right: auto;
-    // margin-left: auto;
-    // padding: 0 20px 30px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 20px 30px 20px;
     justify-content: center;
     @media screen and (max-width: 480px) {
 
@@ -178,9 +178,8 @@ export const ExpTextWrapper = styled.div `
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    // max-width: 90%;
+    width: 90%;
     padding-top: 60px;
-    background-color: red;
 
     @media screen and (max-width: 480px) {
     }
@@ -189,19 +188,19 @@ export const ExpTextWrapper = styled.div `
 
 export const ExpInfoElement = styled.div `
     display: grid;
-    grid-template-columns: 400px 600px;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 26px;
     padding-bottom: 10px;
 
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 700px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 26px;
         padding-bottom: 10px;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         display: initial;
     }
 `;
@@ -211,7 +210,7 @@ export const ExpInfoCol = styled.div `
     flex-direction: column;
     justify-content: flex-start;
     
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         border-style: solid;
         border-color: black;
         padding: 10px;
@@ -236,7 +235,7 @@ export const ExpInfoTitle = styled.p `
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
     margin: 0;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         font-size: 1rem;
         font-weight: bold;
     }
@@ -248,9 +247,9 @@ export const ExpInfoComp = styled.p `
     // color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
     color: #019859;
     margin: 0;
-    padding-left: 0.4rem;
+    // padding-left: 0.4rem;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         font-size: 1rem;
     }
 `;
@@ -260,7 +259,7 @@ export const ExpInfoTeam = styled.i `
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         font-size: 1rem;
     }
 `;
@@ -270,7 +269,7 @@ export const ExpInfoDur = styled.p `
     line-height: 24px;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         margin: 0;
         padding: 0;
         font-size: 1rem;
@@ -282,7 +281,7 @@ export const ExpInfoDes = styled.ul `
     text-align: left;
     font-size: 18px;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 600px) {
         list-style-position: inside;
     }
 `
