@@ -2,7 +2,7 @@
 // data later on
 export const ProjectData = {
     projects: [
-        [
+        
             {
                 img: './images/command.svg',
                 prjName: 'Command Handler',
@@ -21,14 +21,14 @@ export const ProjectData = {
                 prjDes: 'I developed an asynchronous multithreaded electronic power system simulator in C using POSIX\
                  pthread API and other IPC mechanisms',
             },
-        ],
-        [
+        
+        
             {
                 img: './images/nav.svg',
                 prjName: 'Navigation System',
                 prjDes: 'I developed the path finding component of the server using Dijkstra’s algorithm and designed the\
                  client program to communicate with the server over TCP using sockets in C++',
             },
-        ],
+        
     ]
 };
