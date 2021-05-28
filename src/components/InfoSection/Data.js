@@ -85,19 +85,27 @@ export const ExperienceObj = {
     darkText: true,
     expData : [
         {
-            title: 'Team Lead,',
-            comp: 'STARR',
-            team: 'Avionics',
-            des: ['Worked on the design of the telemetry, ignition, and the recovery \
-                system for the rocket', 
-                'Assisted in project management and drafting project reports for competitions'],
+            title: 'Software Developer,',
+            comp: 'AlbertaSat',
+            team: 'Iris Imaging Payload',
+            des: ['Developed an interrupt driven command handler for the ARM based HPS (hard processor system) on Intel cyclone V SoC to enable communication between the OBC (onboard computer) and the imaging payload system on the CubeSat', 
+                'Assisted the team with documentation of the firmware and other software components on the satellite'],
             dur: 'May 2020 - Present'
         },
         {
-            title: 'Team Member,',
-            comp: 'UAlberta Formula Racing',
+            title: 'Team Lead,',
+            comp: 'STARR',
+            team: 'Avionics',
+            des: ['Managed a team of six using agile principles thereby increasing objective fulfillment by 40% compared to previous semesters', 
+                'Designed the avionics bay while assisting in the research of the telemetry and the recovery system for the rocket',
+                'Assisted in the project management of the team and drafting project reports for competitions'],
+            dur: 'May 2020 - Present'
+        },
+        {
+            title: 'Vehicle Controls Engineer,',
+            comp: 'UAlberta Formula Racing EV Team',
             team: 'Electric Vehicle (EV) team',
-            des: ['Designed the prototype of the embedded system for brakes to be used in the vehicle', 
+            des: ['Designed a prototype of the brake system encoder (BSE) to be used in the vehicle ensuring that it meet the safety requirements of the competition', 
                 'Attended workshops on SolidWorks'],
             dur: 'January 2021 - Present'
         },
@@ -105,14 +113,14 @@ export const ExperienceObj = {
             title: 'Sales Associate,',
             comp: 'Costco Wholesale',
             team: 'Electronics/Majors',
-            des: ['Assisted over 50 members daily with their electronics purchase'],
+            des: ['Provided high quality service by assisting over 50 customers daily with their electronics purchase while upholding brand standards and values to ensure customer satisfaction'],
             dur: 'June 2020 - January 2021'
         },
         {
             title: 'Editor, ',
             comp: 'St. Joeph\' College',
             team: '\'The Semite\' Newsletter',
-            des: ['Supervised the editorial team, edited the biweekly newsletter, and interviewed alumni'],
+            des: ['Supervised the editorial team of 5 members, edited the biweekly newsletter, and interviewed alumni'],
             dur: 'April 2015 - March 2017'
         },
     ]

@@ -163,11 +163,10 @@ export const ExpInfoWrapper = styled.div `
     z-index: 1;
     height: fit-content;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 24px 30px 24px;
+    // margin-right: auto;
+    // margin-left: auto;
+    // padding: 0 20px 30px 20px;
     justify-content: center;
-
     @media screen and (max-width: 480px) {
 
     }
@@ -179,8 +178,9 @@ export const ExpTextWrapper = styled.div `
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 90%;
+    // max-width: 90%;
     padding-top: 60px;
+    background-color: red;
 
     @media screen and (max-width: 480px) {
     }
@@ -232,11 +232,13 @@ export const ExpInfoPos = styled.div `
 export const ExpInfoTitle = styled.p `
     font-size: 18px;
     line-height: 24px;
+    font-weight: bold;
     color: ${({ darkText }) => ( darkText ? '#010606' : '#fff')};
     margin: 0;
 
     @media screen and (max-width: 480px) {
         font-size: 1rem;
+        font-weight: bold;
     }
 `;
 
