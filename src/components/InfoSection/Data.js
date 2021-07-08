@@ -60,14 +60,14 @@ export const summaryObj = {
       
     description: ['Hello, My name is Mehar. I am currently pursuing an undergraduate degree in BSc\
     Computer Engineering at the University of Alberta. ', 
-    ' I have experience in Robotics and Embedded Software. I am currently learning about Neural \
-    Networks and React Framework.  I am pretty comfortable with coding in C++ and Python and am \
+    ' I have experience in Web Development, Robotics and Embedded Software. I am currently learning about Neural \
+    Networks and Cloud Infrastructures. I am pretty comfortable with coding in C++, Node.Js, JavaScript, C#, Java and Python. I am \
     passionate about writing beautiful code and developing great products. I have a strong foundation \
     in Mathematics and Logical Problem Solving and am a master of finding and fixing bugs.', 
     'I grew up with a growth mindset and try to challenge myself in every walk of life. \
     I plan to keep giving my best efforts to reach my potential and hope to use my skills to give back\
     to the community.'],
-    buttoLabel: 'GetSrated',
+    buttoLabel: 'GetStarted',
     imgStart: true,
     img: './images/svg2.svg',
     alt: 'Puggy',
@@ -84,6 +84,14 @@ export const ExperienceObj = {
     buttoLabel: 'GetSrated',
     darkText: true,
     expData : [
+        {
+            title: 'Full Stack Developer',
+            comp: 'Clavis Studio',
+            team: 'The Myles App',
+            des: ['Maintained the mobile application and the website while adding new features to them, and improving system performance.' 
+                ],
+            dur: 'July 2021 - November 2021'
+        },
         {
             title: 'Software Developer',
             comp: 'AlbertaSat',
