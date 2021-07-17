@@ -8,7 +8,7 @@ export const ProjectData = {
         {
             img: './images/bestprice.svg',
             prjName: 'Best Price',
-            prjDes: 'I Developed a web application that finds the cheapest store for user’s shopping list using React for the frontend, Node Js express server for backend, and used Selenium and web-driver to scrape the web.',
+            prjDes: 'Our team Developed a web application that finds the cheapest store for user’s shopping list using React for the frontend, Node Js express server for backend, and used Selenium and web-driver to scrape the web.',
             prjLink: 'https://github.com/Techno-cratz/BestPrice.git',
         },
         {
