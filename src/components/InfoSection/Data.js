@@ -65,7 +65,7 @@ export const ExperienceObj = {
             title: 'Vehicle Controls Engineer',
             comp: 'UAlberta Formula Racing EV Team',
             team: 'Electric Vehicle (EV) team',
-            des: ['Designed a prototype of the brake system encoder (BSE) to be used in the vehicle ensuring that it meet the safety requirements of the competition', 
+            des: ['Researched and proposed the components for the prototype of the shutdown circuit to meet safety requirements', 
                 'Attended workshops on SolidWorks'],
             dur: 'January 2021 - Present'
         },

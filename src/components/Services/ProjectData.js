@@ -6,6 +6,12 @@ export const ProjectData = {
     projects: [
        
         {
+            img: './images/blogPop.svg',
+            prjName: 'Blog-Pop',
+            prjDes: "BlogPop is a blogging application that allows users to write to their heart's content. It allows users to view the posts of other users, like other people's posts, and make connections with other users.",
+            prjLink: 'https://github.com/MSNanda515/BlogPop',
+        },
+        {
             img: './images/bestprice.svg',
             prjName: 'Best Price',
             prjDes: 'Our team Developed a web application that finds the cheapest store for user’s shopping list using React for the frontend, Node Js express server for backend, and used Selenium and web-driver to scrape the web.',
@@ -45,7 +51,7 @@ export const ProjectData = {
             img: './images/quizTime.svg',
             prjName: 'Quiz Time',
             prjDes: 'Developed a Java Standalone application emulating an Examination System using Swing and AWT to better understand OOPs and GUI concepts in Java',
-            prjLink: 'https://github.com/MSNanda515/DailyAlgorithms/tree/master/DailyChallenge/Java/QuizTIme',
+            prjLink: 'https://github.com/MSNanda515/DailyAlgorithms/tree/master/Java/QuizTIme',
         },
     ]
 };
