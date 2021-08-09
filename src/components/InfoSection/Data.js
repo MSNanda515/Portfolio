@@ -1,55 +1,3 @@
-export const homeObjOne = {
-    id: 'kk',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headLine: 'Unlimited Transaction with zeros fees',
-    description: 'Get acceess to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttoLabel: 'GetSrated',
-    imgStart: false,
-    img: './images/svg1.svg',
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
-};
-
-export const homeObjTwo = {
-    id: 'discover',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Limited Access',
-    headLine: 'Unlimited Transaction with zeros fees',
-    description: 'Get acceess to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttoLabel: 'GetSrated',
-    imgStart: true,
-    img: './images/svg2.svg',
-    alt: 'Puggy',
-    dark: false,
-    primary: false,
-    darkText: true
-};
-
-export const homeObjThree = {
-    id: 'signup',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Join Our Team',
-    headLine: 'Unlimited Transaction with zeros fees',
-    description: 'Get acceess to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttoLabel: 'GetSrated',
-    imgStart: false,
-    img: './images/svg3.svg',
-    // img: './svg1.svg',
-    alt: 'Car',
-    dark: false,
-    primary: false,
-    darkText: true
-};
-
 export const summaryObj = {
     id: 'aboutme',
     lightBg: false,
@@ -88,7 +36,9 @@ export const ExperienceObj = {
             title: 'Full Stack Developer',
             comp: 'Clavis Studio',
             team: 'The Myles App',
-            des: ['Maintained the mobile application and the website while adding new features to them, and improving system performance.' 
+            des: ['Worked closely with product owners to gather and execute product requirements',
+                'Managed time sensitive updates including content changes, database upgrades, and bug fixes for both the website\
+                using Laravel PHP framework and the native mobile applications using Kotlin for Android and Swift for iOS',
                 ],
             dur: 'July 2021 - November 2021'
         },
@@ -96,13 +46,15 @@ export const ExperienceObj = {
             title: 'Software Developer',
             comp: 'AlbertaSat',
             team: 'Iris Imaging Payload',
-            des: ['Developed an interrupt driven command handler for the ARM based HPS (hard processor system) on Intel cyclone V SoC to enable communication between the OBC (onboard computer) and the imaging payload system on the CubeSat', 
+            des: ['Developed an interrupt driven command handler for the ARM based HPS (hard processor system) on Intel cyclone V SoC to enable communication between the OBC (onboard computer) and the imaging payload system on the CubeSat',
+                'Wrote an Image compression test script in C for uncovering faults in the existing image compression software',
+                'Developed an asynchronous multithreaded electronic power system simulator for a CubeSat implemented in C using POSIX pthread API and other IPC (inter-process communication) mechanisms', 
                 'Assisted the team with documentation of the firmware and other software components on the satellite'],
             dur: 'May 2020 - Present'
         },
         {
             title: 'Team Lead',
-            comp: 'STARR',
+            comp: 'UASTARR',
             team: 'Avionics',
             des: ['Managed a team of six using agile principles thereby increasing objective fulfillment by 40% compared to previous semesters', 
                 'Designed the avionics bay while assisting in the research of the telemetry and the recovery system for the rocket',
@@ -140,6 +92,7 @@ export const awards = {
     lightText: false,
     lightTextDesc: false,
     description: [
+        'Google Cloud Summer Challenge Scholar – July 2021',
         'Received Skill Badge in Insights from Data with BigQuery - May 2021',
         'Awarded the second place at Junior Engineering Competition UAlberta – October 2020',
         'Received the University of Alberta Undergraduate Leadership Award – September 2020',
